@@ -5,11 +5,11 @@ class Hash
     keys_array = []
     self.each do |key, value|
       arguments.each do |argument|
-        if value == arguments
+        if value == argument
           keys_array << key
-          end
         end
-      keys_array
+      end
     end
+    keys_array
   end
 end
